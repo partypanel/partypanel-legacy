@@ -1,0 +1,265 @@
+* {
+	font-family: verdana;
+}
+
+body {
+	font-size: 70%;
+	text-align: center;
+}
+
+div {
+	font-size: 100%;
+	text-align: left;
+}
+
+/* DIV */
+
+/* MAIN CONTAINERS */
+
+div.globalContainer {
+	width: 700px;
+	margin: 0px auto;
+}
+
+div.Blok {
+	background: #A2C92C;
+	padding: 10px;
+	width: 700px;
+	margin-bottom: 10px;
+}
+
+div.Blokdetails {
+	background: #BEE34C;
+	padding: 10px;
+}
+
+div.Onderdeel {
+	background: #C4B134;
+	padding: 10px 10px 10px 10px;
+	clear: both;
+}
+
+div.OnderdeelDetails {
+	background: #E8D764;
+	padding: 10px;
+}
+
+div.Item {
+	background: #6C4D95;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+
+div.ItemOverviewContainer {
+	background: #4D6895;
+	padding: 10px;
+}
+
+div.ItemOverview1,
+div.ItemOverview2 {
+	background: #6087C8;
+	padding: 10px;
+}
+
+div.ItemBGGuideContainer {
+	background: #517933;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+div.ItemBackground {
+	width: 275px;
+	background: #7AC245;
+	padding: 10px;
+	float: left;
+}
+
+div.ItemForeground {
+	width: 275px;
+	background: #7AC245;
+	padding: 10px;
+	float: right;
+	margin-bottom: 10px;
+}
+
+*html div.ItemForeground,
+*html div.ItemBackground {
+	width: 285px;
+}
+
+div.Guide {
+	background: #7AC245;
+	padding: 10px 10px 10px 10px;
+	margin-top: 6px;
+}
+
+div.ItemDetailsContainer {
+	background: #711C1C;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+div.QuestionBoxDetails {
+	background: #B95151;
+	padding: 10px;
+}
+
+div.QuestionText {
+	background: #B95151;
+	padding: 10px;
+	margin-top: 10px;	
+}
+
+div.QuestionAnswer {
+	background: #B95151;
+	padding: 10px;
+	margin-top: 10px;	
+}
+
+div.TextballoonContainer {
+	background: #7D108A;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+div.TextBalloonDetails {
+	background: #B43BC2;
+	padding: 10px;
+}
+
+div.TextBalloonText {
+	background: #B43BC2;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+/* SUB CONTAINERS */
+
+div.Milestone,
+div.SaveAnswer,
+div.TimeVar,
+div.IsLast,
+div.ItemBackbutton {
+	display: inline;
+}
+
+div.Bloknaam,
+div.Onderdeelnaam {
+	font-weight: bold;
+	font-size: 110%;
+}
+
+div.Bloknaam,
+div.Blokdependencies,
+div.Automailtext {
+	float: left;
+	clear: left;
+}
+
+div.BlokStartdagNummerContainer {
+	float: right;
+}
+
+div.Startdag,
+div.Bloknummer {
+	display: inline;
+	margin-left: 5px;
+}
+
+div.SequenceBloknummer {
+	float: left;
+}
+
+
+div.BlokOnderdeelAlgContainer {
+	float: left;
+}
+
+div.BlokOnderdeelnrContainer {
+	float: right;
+}
+
+div.OnderdeelNummer,
+div.SequenceBloknummer {
+	display: inline;
+	margin-left: 5px;
+}
+
+div.SequenceBackbutton {
+	text-align: right;
+	display: block;
+	margin-top: 10px;
+}
+
+div.ItemOverviewLeft {
+	float: left;
+	clear: left;
+}
+
+div.ItemOverviewDependencies {
+	float: left;
+	clear: left;
+}
+
+div.ItemOverviewBloknummer,
+div.ItemOverviewOnderdeelnummer,
+div.ItemOverviewVolgnummer,
+div.ItemOverviewVariabelenaam {
+	display: inline;
+	margin-right: 3px;
+}
+
+div.ItemOverviewIdnummer {
+	float: right;
+}
+
+div.ItemOverviewDependencies {
+	clear: both;
+}
+
+div.QBValue,
+div.QBAnswer {
+	background: #B95151;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+div.ItemBackgroundX,
+div.ItemBackgroundY,
+div.ItemBackgroundScale,
+div.ItemBackgroundURL {
+	display: inline;
+}
+
+div.ItemForegroundX,
+div.ItemForegroundY,
+div.ItemForegroundScale,
+div.ItemForegroundURL {
+	display: inline;
+}
+
+div.GuideX,
+div.GuideY,
+div.GuideScale {
+	display: inline;
+}
+
+div.QBX,
+div.QBY,
+div.QBWidth,
+div.QBQuestionSize,
+div.QBAnswerSize,
+div.QBType,
+div.QBMaxLength,
+div.QBMinLength {
+	display: inline;
+}
+
+div.TBX,
+div.TBY,
+div.TBWidth,
+div.TBFontsize,
+div.TBType,
+div.TBConnector {
+	display: inline;
+}
